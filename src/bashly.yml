@@ -1,0 +1,167 @@
+name: usb-spoofer
+help: Creation of virtual USB devices on Raspberry Pi Hardware using ConfigFS.
+version: 0.1.1
+
+environment_variables:
+
+commands:
+  - name: create
+    alias: c
+    dependencies:
+      fallocate:
+      sfdisk:
+      file_system:
+        command: [mkfs.vfat, mkfs.ntfs, mkfs.exfat]
+    help: |-
+      Create a virtual USB gadget. 
+      Support various options to customize the device meta data. For a list of
+      valid combinations for vendor ID, product ID, manufacturer string, and
+      product string see http://www.linux-usb.org/usb.ids.
+    filters:
+      - is_root
+
+    args:
+      - name: name
+        required: true
+        help: |-
+          Name of the USB gadget. 
+          This will also be the name of the created backing file, in case the
+          device needs storage. The backing file will reside below /root but can
+          be accessed with the mount command of this script.
+
+    flags:
+      - long: --size
+        short: -s
+        arg: size
+        default: 1G
+        help: Define the size of the backing store (must be supported by fallocate).
+
+      - long: --file-system
+        short: -F
+        arg: file_system
+        allowed: [fat32, ntfs, exfat]
+        default: fat32
+        help: The filesystem to be used on the USB gadget
+
+      - long: --vendor-id
+        short: -V
+        arg: vendor_id
+        default: '0x0951'
+        help: Vendor ID  [HEX] of the USB gadget.
+
+      - long: --product-id
+        short: -P
+        arg: product_id
+        default: '0x1666'
+        help: Product ID [HEX] of the USB gadget.
+
+      - long: --manufacturer
+        short: -M
+        arg: manufacturer
+        default: 'Kingston'
+        help: Manufacturer string of the USB gadget.
+
+      - long: --product
+        arg: product
+        default: 'Data Traveler'
+        help: Product string of the USB gadget.
+
+      - long: --serial-number
+        short: -S
+        arg: serial_number
+        default: '0x1234'
+        help: Serial number [HEX] of the USB gadget.
+
+      - long: --label
+        short: -L
+        arg: label
+        help: |-
+          Label for the partition of the USB gadget. 
+          Note: Might be restricted through used filesystem.
+
+    examples:
+      - usb-spoofer create usb_1 --vendor-id=0x0951 --product-id=0x160b --manufacturer="Kingston Technology" --product="DataTraveler 2.0 (2GB)" --serial-number=5404A6C0AFF8F170B9600284 --size=2G --file-system=fat32
+
+  - name: remove
+    alias: r
+    help: Remove a gadget
+    filters:
+      - is_root
+    args:
+      - name: name
+        required: true
+        help: Name of the USB gadget
+
+    flags:
+      - long: --keep-backing-store
+        short: -k
+        help: Toggle to keep the backing store file on the Pi
+
+    examples:
+      - usb-spoofer remove usb_1
+      - usb-spoofer remove usb_1 --keep-backing-store
+
+  - name: activate
+    alias: a
+    help: Activate a configured gadget
+    filters:
+      - is_root
+    args:
+      - name: name
+        required: true
+        help: Name of the USB gadget
+
+    examples:
+      - usb-spoofer activate usb_1
+
+  - name: deactivate
+    alias: d
+    help: Deactivate a configured USB gadget
+    filters:
+      - is_root
+    args:
+      - name: name
+        required: true
+        help: Name of the USB gadget
+
+    examples:
+      - usb-spoofer deactivate usb_1
+
+  - name: list
+    alias: l
+    help: List configured USB gadgets
+
+    flags:
+      - long: --verbose
+        short: -v
+        help: Make the output of the list command more verbose
+
+  - name: mount
+    alias: m
+    help: |-
+      Mount the backing store of the USB gadget, e.g., to transfer files.
+      The default mount path will be /mnt/<name of USB gadget>, e.g.,
+      /mnt/usb_1. The normal user has read and write access.
+    filters:
+      - is_root
+    args:
+      - name: name
+        help: Name of the USB gadget
+
+    examples:
+      - usb-spoofer mount usb_1
+
+  - name: umount
+    alias: u
+    help: Unmount the backing store of the USB gadget and delete the mount point
+    filters:
+      - is_root
+    args:
+      - name: name
+        help: Name of the USB gadget
+
+    examples:
+      - usb-spoofer umount usb_1
+
+  - name: test
+    help: Test if Pi is configured correctly
