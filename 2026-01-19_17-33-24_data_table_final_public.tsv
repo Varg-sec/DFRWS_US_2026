@@ -1,0 +1,291 @@
+disk_image	Identifier	Year	Case Name	Origin	Link	win_build	win_build_inferred_os	win_version_id	win_version_str	evtx_stor_dev_access_attempt_4663	evtx_new_external_dev_6416	evtx_driver_install_attempt_20001	evtx_driver_install_attempt_disk_drive_usbstor_20001	evtx_driver_install_attempt_usb_storage_desc_20001	num_usb_mass_storage_attached_setupapi	details_usb_mass_storage_attached_setupapi	num_usb_reg_USB	num_usb_reg_USBSTOR	num_usb_reg_dev_classes	num_usb_reg_mounted_dev	num_usb_reg_portable_dev	num_usb_reg_usbccgp	num_usb_reg_usbhub	num_usb_reg_user_assist_max	num_usb_reg_user_assist_total	num_usb_w_vendor_reg_USB	num_unique_device_instances_reg_USB	details_vendor_product_types_reg_USB	details_vendor_product_counts_reg_USB	details_reg_USBSTOR	num_unique_device_instances_reg_USBSTOR	details_counts_reg_USBSTOR
+Bart23/bart.E01	Bart23	2023	Bart the hacker	Instituto Politécnico de Beja	https://cfreds.nist.gov/all/NunoMourinho%2FEstigBeja/BartthehackerForensicVMshowcase2023	22000	Windows 11	6.3	Windows 10 Pro	0	0	0	0	0	0		2		60	0	0	0	1	9	9	1	1	VirtualBox - USB Tablet	vid_80ee&pid_0021_VirtualBox - USB Tablet: 1		0	
+BelkaCTF1/SUSPECT.E01	BelkaCTF1	2021	Insider Threat	Belkasoft	https://belkasoft.com/ctf_march/	17763	Windows 10	6.3	Windows 10 Enterprise LTSC 2019	0	0	7	0	0	0				58	0	0	0	1	9	27	0	0				0	
+BelkaCTF5/BelkaCTF_PartyGirl.E01	BelkaCTF5	2022	Party Girl Missing	Belkasoft	https://belkasoft.com/ctf_july_2022/	19044	Windows 10	6.3	Windows 10 Pro	0	0	0	0	0	0		6		65	0	0	0	1	9	9	3	3	"VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse"	"vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1"		0	
+BelkaCTF6/BelkaCTF_6_CASE240405_LAPTOP.E01	BelkaCTF6	2024	Bogus Bill	Belkasoft	https://belkasoft.com/belkactf6/	19044	Windows 10	6.3	Windows 10 Pro	0	0	0	0	0	0		4		45	0	0	0	1	9	9	4	5	"HP, Inc - LaserJet M1132 MFP
+HP, Inc - LaserJet M1132 MFP
+HP, Inc - LaserJet M1132 MFP
+HP, Inc - LaserJet M1132 MFP"	"vid_03f0&pid_042a_HP, Inc - LaserJet M1132 MFP: 2
+vid_03f0&pid_042a&mi_00_HP, Inc - LaserJet M1132 MFP: 1
+vid_03f0&pid_042a&mi_01_HP, Inc - LaserJet M1132 MFP: 1
+vid_03f0&pid_042a&mi_02_HP, Inc - LaserJet M1132 MFP: 1"		0	
+CCIKip/Kip.E01	CCIKip	2019	Kip Case	California Cybersecurity Institute	https://cci.calpoly.edu/2019-digital-forensics-downloads	7601	Windows 7	6.1	Windows 7 Home Premium	0	0	239	1	1	1	2014/01/17 21:25:03.804, VID_0781&PID_5406\15358113EC8349E0	9	1	46	0	1	0	2	2	4	7	5	"Cypress Semiconductor Corp. - CY7C65640 USB-2.0 ""TetraHub""
+SanDisk Corp. - Cruzer Micro U3
+VMware, Inc. - Virtual USB Hub
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+Raritan Computer, Inc. - Unknown"	"vid_04b4&pid_6560_Cypress Semiconductor Corp. - CY7C65640 USB-2.0 ""TetraHub"": 0
+vid_0781&pid_5406_SanDisk Corp. - Cruzer Micro U3: 1
+vid_0e0f&pid_0002_VMware, Inc. - Virtual USB Hub: 1
+vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1
+vid_14dd&pid_1005_Raritan Computer, Inc. - Unknown: 0"	disk&ven_sandisk&prod_cruzer&rev_8.02	1	disk&ven_sandisk&prod_cruzer&rev_8.02: 1
+CCITucker/Craig Tucker Desktop.E01	CCITucker	2019	Tucker Case	California Cybersecurity Institute	https://cci.calpoly.edu/2019-digital-forensics-downloads	9600	Windows 8.1	6.3	Windows 8.1 Pro						1	2013/12/18 11:41:02.723, Ven_Kingston&Prod_DT_100_G2	11	1	81	0	1	0	1	9	9	8	11	"Toshiba Corp. - Kingston DataTraveler 102/2.0 / HEMA Flash Drive 2 GB / PNY Attache 4GB Stick
+VMware, Inc. - Virtual USB Hub
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Unknown
+VMware, Inc. - Unknown
+VMware, Inc. - Virtual Sensors"	"vid_0930&pid_6545_Toshiba Corp. - Kingston DataTraveler 102/2.0 / HEMA Flash Drive 2 GB / PNY Attache 4GB Stick: 1
+vid_0e0f&pid_0002_VMware, Inc. - Virtual USB Hub: 2
+vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0007_VMware, Inc. - Unknown: 2
+vid_0e0f&pid_0008_VMware, Inc. - Unknown: 1
+vid_0e0f&pid_000a_VMware, Inc. - Virtual Sensors: 2"	disk&ven_kingston&prod_dt_100_g2&rev_pmap	1	disk&ven_kingston&prod_dt_100_g2&rev_pmap: 1
+CellebriteCTF21/sda Image.E01	CellebriteCTF21	2021	Cellebrite CTF	Cellebrite	https://cfreds.nist.gov/all/Cellebrite/Cellebrite2021CTF	19043	Windows 10	6.3	Windows 10 Pro	0	0	0	0	0	0		17	3	108	0	12	0	1	9	9	16	25	"Logitech, Inc. - Unifying Receiver
+Logitech, Inc. - Unifying Receiver
+Logitech, Inc. - Unifying Receiver
+Logitech, Inc. - Unifying Receiver
+Toshiba America Inc - Canvio Basics HDD
+Lite-On Technology Corp. - Unknown
+Lite-On Technology Corp. - Unknown
+Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR
+Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR
+Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR
+Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR
+SanDisk Corp. - Cruzer
+Kingston Technology - DataTraveler 100 G3/G4/SE9 G2/50 Kyson
+Validity Sensors, Inc. - VFS7500 Touch Fingerprint Sensor
+ASMedia Technology Inc. - ASM1051E SATA 6Gb/s bridge, ASM1053E SATA 6Gb/s bridge, ASM1153 SATA 3Gb/s bridge, ASM1153E SATA 6Gb/s bridge
+Intel Corp. - Bluetooth wireless interface"	"vid_046d&pid_c52b_Logitech, Inc. - Unifying Receiver: 2
+vid_046d&pid_c52b&mi_00_Logitech, Inc. - Unifying Receiver: 2
+vid_046d&pid_c52b&mi_01_Logitech, Inc. - Unifying Receiver: 2
+vid_046d&pid_c52b&mi_02_Logitech, Inc. - Unifying Receiver: 2
+vid_0480&pid_a202_Toshiba America Inc - Canvio Basics HDD: 1
+vid_04ca&pid_7058_Lite-On Technology Corp. - Unknown: 1
+vid_04ca&pid_7058&mi_00_Lite-On Technology Corp. - Unknown: 1
+vid_05ac&pid_12a8_Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR: 2
+vid_05ac&pid_12a8&mi_00_Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR: 2
+vid_05ac&pid_12a8&mi_01_Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR: 2
+vid_05ac&pid_12a8&mi_02_Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR: 1
+vid_0781&pid_5530_SanDisk Corp. - Cruzer: 1
+vid_0951&pid_1666_Kingston Technology - DataTraveler 100 G3/G4/SE9 G2/50 Kyson: 1
+vid_138a&pid_0090_Validity Sensors, Inc. - VFS7500 Touch Fingerprint Sensor: 1
+vid_174c&pid_55aa_ASMedia Technology Inc. - ASM1051E SATA 6Gb/s bridge, ASM1053E SATA 6Gb/s bridge, ASM1153 SATA 3Gb/s bridge, ASM1153E SATA 6Gb/s bridge: 3
+vid_8087&pid_0a2b_Intel Corp. - Bluetooth wireless interface: 1"	"disk&ven_kingston&prod_datatraveler_3.0&rev_pmap
+disk&ven_sandisk&prod_cruzer&rev_1100
+disk&ven_toshiba&prod_external_usb_3.0&rev_5438"	3	"disk&ven_kingston&prod_datatraveler_3.0&rev_pmap: 1
+disk&ven_sandisk&prod_cruzer&rev_1100: 1
+disk&ven_toshiba&prod_external_usb_3.0&rev_5438: 1"
+DataLeakage15/cfreds_2015_data_leakage_pc.E01	DataLeakage15	2015	Data Leakage Case	National Institute of Standards and Technology	https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html	7601	Windows 7	6.1	Windows 7 Ultimate	0	0	221	2	2	2	"2015/03/23 14:31:09.394, VID_0781&PID_5571\4C530012450531101593
+2015/03/24 09:58:31.856, VID_0781&PID_5571\4C530012550531106501"	9	1	39	0	0	0	2	2	6	7	6	"Cypress Semiconductor Corp. - CY7C65640 USB-2.0 ""TetraHub""
+SanDisk Corp. - Cruzer Fit
+VMware, Inc. - Virtual USB Hub
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+Raritan Computer, Inc. - Unknown"	"vid_04b4&pid_6560_Cypress Semiconductor Corp. - CY7C65640 USB-2.0 ""TetraHub"": 0
+vid_0781&pid_5571_SanDisk Corp. - Cruzer Fit: 2
+vid_0e0f&pid_0002_VMware, Inc. - Virtual USB Hub: 1
+vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1
+vid_14dd&pid_1005_Raritan Computer, Inc. - Unknown: 0"	disk&ven_sandisk&prod_cruzer_fit&rev_2.01	2	disk&ven_sandisk&prod_cruzer_fit&rev_2.01: 2
+DefenitCTF20/Evidence.E01	DefenitCTF20	2020	Find Tangential Cipher	Defenit CTF	https://ctftime.org/task/11945	17134	Windows 10	6.3	Windows 10 Home	0	0	10	0	0	0		6		61	0	0	0	1	9	9	3	3	"VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse"	"vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1"		0	
+DFRWSRodeo24/laptop-disk.dd	DFRWSRodeo24	2024	DFRWS EU Rodeo Byte Busters	University of Zaragoza	https://ctfs.unizar.es/rodeo/	17763	Windows 10	6.3	Windows 10 Enterprise Evaluation	0	0	7	0	0	0				46	0	0	0	1	9	18	0	0				0	
+Hadi1/s4a-challenge4.dd	Hadi1	n/a	Challenge 1- Web Server Case	Ali Hadi's Digital Forensics Challenge Images	https://www.ashemery.com/dfir.html#Challenge1	6001	Windows Server 2008	6	Windows Server (R) 2008 Standard	0	0	64	0	0	0		3		36	0		0	1	3	3	1	1	VirtualBox - USB Tablet	vid_80ee&pid_0021_VirtualBox - USB Tablet: 1		0	
+Hadi2/4orensics.dd	Hadi2	n/a	Challenge 2 - User Policy Violation Case	Ali Hadi's Digital Forensics Challenge Images	https://www.ashemery.com/dfir.html#Challenge2	9600	Windows 8.1	6.3	Windows 8.1 Enterprise	0	0	8	0	0			5	2	59	0	2	0	1	9	9	3	3	"Lexar Media, Inc. - Unknown
+Imation Corp. - Unknown
+VirtualBox - USB Tablet"	"vid_05dc&pid_a202_Lexar Media, Inc. - Unknown: 1
+vid_0718&pid_063d_Imation Corp. - Unknown: 1
+vid_80ee&pid_0021_VirtualBox - USB Tablet: 1"	"disk&ven_imation&prod_nano_pro&rev_pmap
+disk&ven_lexar&prod_jumpdrive&rev_1100"	2	"disk&ven_imation&prod_nano_pro&rev_pmap: 1
+disk&ven_lexar&prod_jumpdrive&rev_1100: 1"
+Hadi3/Windows8.1-Challenge02.dd	Hadi3	n/a	Challenge 3 - Mystery Hacked System	Ali Hadi's Digital Forensics Challenge Images	https://www.ashemery.com/dfir.html#Challenge3	9600	Windows 8.1	6.3	Windows 8.1 Enterprise	0	0	7	0	0	0		3		54	0	0	0	1	9	18	1	1	VirtualBox - USB Tablet	vid_80ee&pid_0021_VirtualBox - USB Tablet: 1		0	
+İGÜCTF24/chall.001	İGÜCTF24	2024		stanbul Gelisim University Cyber Security Applications Club	"https://ctftime.org/event/2394 
+https://cfreds.nist.gov/all/%C4%B0G%C3%9CCTF24'(MehmetDemir)/GCTF24Forensics"	20348	Windows Server 2022	6.3	Windows Server 2022 Standard Evaluation	0	0	0	0	0	0		7		59	0	0	0	1	9	18	4	4	"Seagate RSS LLC - Unknown
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse"	"vid_0bc2&pid_2036_Seagate RSS LLC - Unknown: 1
+vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1"		0	
+InCTF20/Lookout Foxy final.E01	InCTF20	2020	Lookout Foxy	InCTF Internationals 2020	https://github.com/teambi0s/InCTFi/tree/master/2020/Forensics/Lookout%20Foxy	2600	Windows XP	5.1	Microsoft Windows XP						0		2		34	0			0			1	1	VirtualBox - USB Tablet	vid_80ee&pid_0021_VirtualBox - USB Tablet: 1		0	
+LoneWolf18/LoneWolf.E01	LoneWolf18	2018	Lone Wolf Scenario	Digital Corpora	https://digitalcorpora.org/corpora/scenarios/2018-lone-wolf-scenario/	16299	Windows 10	6.3	Windows 10 Education	0	0	30	0	0	1	2018/03/27 05:22:22.016, Ven_SanDisk&Prod_Extreme	7	1	83	0	2	0	1	9	9	5	7	"SanDisk Corp. - SDCZ80 Flash Drive
+Microdia - Dell Integrated HD Webcam
+Microdia - Dell Integrated HD Webcam
+Dell Computer Corp. - BCM20702A0 Bluetooth Module
+Intel Corp. - Integrated Rate Matching Hub"	"vid_0781&pid_5580_SanDisk Corp. - SDCZ80 Flash Drive: 2
+vid_0c45&pid_643f_Microdia - Dell Integrated HD Webcam: 1
+vid_0c45&pid_643f&mi_00_Microdia - Dell Integrated HD Webcam: 1
+vid_413c&pid_8197_Dell Computer Corp. - BCM20702A0 Bluetooth Module: 1
+vid_8087&pid_0024_Intel Corp. - Integrated Rate Matching Hub: 2"	disk&ven_sandisk&prod_extreme&rev_0001	2	disk&ven_sandisk&prod_extreme&rev_0001: 2
+M57-08/nps-2008-jean.E01	M57-08	2008	M57	Digital Corpora	https://digitalcorpora.org/corpora/scenarios/m57-jean/	2600	Windows XP	5.1	Microsoft Windows XP						2	", VEN_CBM&PROD_FLASH_DISK&REV_5.00\15003702E152E204&0"".
+, VEN_GENERIC&PROD_USB_FLASH_DRIVE&REV_1.00\7&162A4319&0""."	9	2	43	0		1	0			7	11	"Chipsbank Microelectronics Co., Ltd - CBM2080 / CBM2090 Flash drive controller
+Apple, Inc. - iPhone
+VMware, Inc. - Virtual USB Hub
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+iCreate Technologies Corp. - Flash Disk 256 MB"	"vid_0204&pid_6025_Chipsbank Microelectronics Co., Ltd - CBM2080 / CBM2090 Flash drive controller: 1
+vid_05ac&pid_1290_Apple, Inc. - iPhone: 1
+vid_0e0f&pid_0002_VMware, Inc. - Virtual USB Hub: 2
+vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 2
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 2
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 2
+vid_1043&pid_8012_iCreate Technologies Corp. - Flash Disk 256 MB: 1"	"disk&ven_cbm&prod_flash_disk&rev_5.00
+disk&ven_generic&prod_usb_flash_drive&rev_1.00"	2	"disk&ven_cbm&prod_flash_disk&rev_5.00: 1
+disk&ven_generic&prod_usb_flash_drive&rev_1.00: 1"
+M57-09/charlie-2009-12-11.E01	M57-09Charlie	2009	M57	Digital Corpora	https://corp.digitalcorpora.org/corpora/scenarios/2009-m57-patents/drives-redacted/	2600	Windows XP	5.1	Microsoft Windows XP						4	", VEN_LACIE&PROD_RUGGED_FW/USB&REV_\00D04B881007C255&0"".
+, VEN_USB_2.0&PROD_FLASH_DISK&REV_8.00\51491E64&0"".
+, VEN_SANDISK&PROD_CRUZER&REV_7.01\43175107A4C24AD4&0"".
+, VEN_KINGSTON&PROD_DATATRAVELER_2.0&REV_2.00\2007110203195377&0""."	10	4	22	0			0			8	8	"Unknown - Unknown
+Fujitsu Component Limited - 3-button Mouse
+Brother Industries, Ltd - Unknown
+Alcor Micro Corp. - Flash Drive
+LaCie, Ltd - Rugged Triple Interface Mobile Hard Drive
+SanDisk Corp. - Cruzer Micro U3
+Unknown - Unknown
+Dell Computer Corp. - Model L100 Keyboard"	"vid_0000&pid_0000_Unknown - Unknown: 1
+vid_0430&pid_0100_Fujitsu Component Limited - 3-button Mouse: 1
+vid_04f9&pid_0035_Brother Industries, Ltd - Unknown: 1
+vid_058f&pid_6387_Alcor Micro Corp. - Flash Drive: 1
+vid_059f&pid_100c_LaCie, Ltd - Rugged Triple Interface Mobile Hard Drive: 1
+vid_0781&pid_5406_SanDisk Corp. - Cruzer Micro U3: 1
+vid_2008&pid_2018_Unknown - Unknown: 1
+vid_413c&pid_2105_Dell Computer Corp. - Model L100 Keyboard: 1"	"disk&ven_kingston&prod_datatraveler_2.0&rev_2.00
+disk&ven_lacie&prod_rugged_fw/usb&rev_
+disk&ven_sandisk&prod_cruzer&rev_7.01
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00"	4	"disk&ven_kingston&prod_datatraveler_2.0&rev_2.00: 1
+disk&ven_lacie&prod_rugged_fw/usb&rev_: 1
+disk&ven_sandisk&prod_cruzer&rev_7.01: 1
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00: 1"
+M57-09/jo-2009-12-11-002.E01	M57-09Jo	2009	M57	Digital Corpora	https://corp.digitalcorpora.org/corpora/scenarios/2009-m57-patents/drives-redacted/	2600	Windows XP	5.1	Microsoft Windows XP						3	", VEN_USB_2.0&PROD_FLASH_DISK&REV_8.00\51491E64&0"".
+, VEN_GENERIC&PROD_FLASH_DISK&REV_8.00\2B9ECCFF&0"".
+, VEN_IMATION&PROD__USB_FLASH_DRIVE&REV_2.00\AADA04411400000B&0""."	8	3	21	0			0			6	5	"Unknown - Unknown
+Logitech, Inc. - Optical Wheel Mouse
+Alcor Micro Corp. - Flash Drive
+Imation Corp. - Flash Drive
+Dell Computer Corp. - Model L100 Keyboard
+Dell Computer Corp. - Mouse"	"vid_0000&pid_7777_Unknown - Unknown: 1
+vid_046d&pid_c016_Logitech, Inc. - Optical Wheel Mouse: 1
+vid_058f&pid_6387_Alcor Micro Corp. - Flash Drive: 1
+vid_0718&pid_0062_Imation Corp. - Flash Drive: 1
+vid_413c&pid_2105_Dell Computer Corp. - Model L100 Keyboard: 1
+vid_413c&pid_3200_Dell Computer Corp. - Mouse: 1"	"disk&ven_generic&prod_flash_disk&rev_8.00
+disk&ven_imation&prod__usb_flash_drive&rev_2.00
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00"	3	"disk&ven_generic&prod_flash_disk&rev_8.00: 1
+disk&ven_imation&prod__usb_flash_drive&rev_2.00: 1
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00: 1"
+M57-09/pat-2009-12-11.E01	M57-09Pat	2009	M57	Digital Corpora	https://corp.digitalcorpora.org/corpora/scenarios/2009-m57-patents/drives-redacted/	2600	Windows XP	5.1	Microsoft Windows XP						6	", VEN_LACIE&PROD_RUGGED_FW/USB&REV_\00D04B881A01BF8E&0"".
+, VEN_SANDISK&PROD_CRUZER&REV_7.01\43175107A4C24AD4&0"".
+, VEN_LACIE&PROD_RUGGED_FW/USB&REV_\00D04B881007C255&0"".
+, VEN_&PROD_&REV_\152D203380B6&0"".
+, VEN_USB_2.0&PROD_FLASH_DISK&REV_8.00\51491E64&0"".
+, VEN_WDC_WD40&PROD_0BB-75DEA0&REV_3E05\7D577AD18558&0""."	7	5	21	0			0			5	7	"Alcor Micro Corp. - Flash Drive
+LaCie, Ltd - Rugged Triple Interface Mobile Hard Drive
+SanDisk Corp. - Cruzer Micro U3
+JMicron Technology Corp. / JMicron USA Technology Corp. - JM20337 Hi-Speed USB to SATA & PATA Combo Bridge
+Dell Computer Corp. - Mouse"	"vid_058f&pid_6387_Alcor Micro Corp. - Flash Drive: 1
+vid_059f&pid_100c_LaCie, Ltd - Rugged Triple Interface Mobile Hard Drive: 2
+vid_0781&pid_5406_SanDisk Corp. - Cruzer Micro U3: 1
+vid_152d&pid_2338_JMicron Technology Corp. / JMicron USA Technology Corp. - JM20337 Hi-Speed USB to SATA & PATA Combo Bridge: 2
+vid_413c&pid_3200_Dell Computer Corp. - Mouse: 1"	"disk&ven_&prod_&rev_
+disk&ven_lacie&prod_rugged_fw/usb&rev_
+disk&ven_sandisk&prod_cruzer&rev_7.01
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00
+disk&ven_wdc_wd40&prod_0bb-75dea0&rev_3e05"	6	"disk&ven_&prod_&rev_: 1
+disk&ven_lacie&prod_rugged_fw/usb&rev_: 2
+disk&ven_sandisk&prod_cruzer&rev_7.01: 1
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00: 1
+disk&ven_wdc_wd40&prod_0bb-75dea0&rev_3e05: 1"
+M57-09/terry-2009-12-11-002.E01	M57-09Terry	2009	M57	Digital Corpora	https://corp.digitalcorpora.org/corpora/scenarios/2009-m57-patents/drives-redacted/	6002	Windows Vista	6	Windows Vista (TM) Business	0	0	164	4	4	8	"2009/11/18 16:50:44.593, VID_413C&PID_2100\5&2f6f8af0&0&1
+2009/11/18 16:50:47.359, VID_413C&PID_3010\5&2f6f8af0&0&2
+2009/11/19 16:02:25.981, VID_059F&PID_100C\00D04B881007C255
+2009/11/20 10:30:58.398, VID_058F&PID_6387\51491E64
+2009/11/30 18:12:41.228, VID_0000&PID_0000\5&2aa24d18&0&2
+2009/12/10 18:21:50.002, VID_0000&PID_0000\5&2f6f8af0&0&1
+2009/12/11 08:02:23.599, VID_413C&PID_2100\5&b81797c&0&2
+2009/12/11 11:04:58.846, VID_0000&PID_0000\5&2aa24d18&0&1"	9	2	36	0	2	0	1	2	2	7	11	"Unknown - Unknown
+Alcor Micro Corp. - Flash Drive
+LaCie, Ltd - Rugged Triple Interface Mobile Hard Drive
+Dell Computer Corp. - SK-3106 Keyboard
+Dell Computer Corp. - SK-3106 Keyboard
+Dell Computer Corp. - SK-3106 Keyboard
+Dell Computer Corp. - Optical Wheel Mouse"	"vid_0000&pid_0000_Unknown - Unknown: 3
+vid_058f&pid_6387_Alcor Micro Corp. - Flash Drive: 1
+vid_059f&pid_100c_LaCie, Ltd - Rugged Triple Interface Mobile Hard Drive: 1
+vid_413c&pid_2100_Dell Computer Corp. - SK-3106 Keyboard: 2
+vid_413c&pid_2100&mi_00_Dell Computer Corp. - SK-3106 Keyboard: 2
+vid_413c&pid_2100&mi_01_Dell Computer Corp. - SK-3106 Keyboard: 2
+vid_413c&pid_3010_Dell Computer Corp. - Optical Wheel Mouse: 1"	"disk&ven_lacie&prod_rugged_fw/usb&rev_
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00"	2	"disk&ven_lacie&prod_rugged_fw/usb&rev_: 1
+disk&ven_usb_2.0&prod_flash_disk&rev_8.00: 1"
+MagnetCTF19/2019 CTF - Windows-Desktop-001.E01	MagnetCTF19	2019	Magnet CTF	Magnet Forensics	https://corp.digitalcorpora.org/corpora/scenarios/magnet/	17134	Windows 10	6.3	Windows 10 Enterprise	0	0	3	0	0	0		2		51	0	0	0	1	9	18	1	1	Adomax Technology Co., Ltd - QEMU Tablet	vid_0627&pid_0001_Adomax Technology Co., Ltd - QEMU Tablet: 1		0	
+MagnetCTF20/DFA_Windows.E01	MagnetCTF20	2020	Magnet CTF	Magnet Forensics	https://corp.digitalcorpora.org/corpora/scenarios/magnet/	7601	Windows 7	6.1	Windows 7 Enterprise	0	0	240	0	0	3	"2020/02/13 21:09:13.471, VID_0E0F&PID_0008\000650268328
+2020/03/19 06:06:35.358, VID_0E0F&PID_0003\6&b25d31b&0&1
+2020/03/19 06:06:35.748, VID_0E0F&PID_0002\6&b25d31b&0&2"	7		41	0	0	0	2	2	2	5	5	"VMware, Inc. - Virtual USB Hub
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Virtual Mouse
+VMware, Inc. - Unknown"	"vid_0e0f&pid_0002_VMware, Inc. - Virtual USB Hub: 1
+vid_0e0f&pid_0003_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_00_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0003&mi_01_VMware, Inc. - Virtual Mouse: 1
+vid_0e0f&pid_0008_VMware, Inc. - Unknown: 1"		0	
+MagnetCTF22/Laptop1Final.E01	MagnetCTF22	2022	Magnet CTF	Magnet Forensics	https://corp.digitalcorpora.org/corpora/scenarios/magnet/	22000	Windows 11	6.3	Windows 10 Home	0	0	0	0	0	2	"2022/01/10 15:06:18.830, VID_0B95&PID_1790\000050B6288F09
+2022/01/21 17:22:18.648, VID_05AC&PID_12A8\fb028ddefa8af7df5b12d3e729f075d150637a31"	9	1	108	0	3	0	1	9	18	8	8	"Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Intel Corp. - Bluetooth wireless interface
+Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR
+Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+ASIX Electronics Corp. - AX88179 Gigabit Ethernet
+Chipsbank Microelectronics Co., Ltd - Flash Disk
+Intel Corp. - Bluetooth wireless interface"	"vid_05c8&pid_0815_Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown: 1
+vid_05c8&pid_0815&mi_00_Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown: 1
+vid_05c8&pid_0815&mi_02_Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown: 1
+vid_8087&pid_0a2b_Intel Corp. - Bluetooth wireless interface: 1
+vid_05ac&pid_12a8_Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR: 1
+vid_05ac&pid_12a8&mi_00_Apple, Inc. - iPhone 5/5C/5S/6/SE/7/8/X/XR: 1
+vid_0b95&pid_1790_ASIX Electronics Corp. - AX88179 Gigabit Ethernet: 1
+vid_1e3d&pid_198a_Chipsbank Microelectronics Co., Ltd - Flash Disk: 1"	disk&ven_chipsbnk&prod_flash_disk&rev_5.00	1	disk&ven_chipsbnk&prod_flash_disk&rev_5.00: 1
+MagnetCTF23/PC-MUS-001.E01	MagnetCTF23	2023	Magnet Virtual Summit CTF	Magnet Forensics	https://magnetvirtualsummit.com/capture-the-flag/	22621	Windows 11	6.3	Windows 10 Home	0	0	0	0	0	2	"2023/01/05 21:44:37.936, VID_2537&PID_1066\0123456789ABCDE
+2023/01/05 22:12:09.606, Ven_SanDisk&Prod_Cruzer_Dial"	7	2	103	0	2	1	1	9	9	6	6	"Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown
+SanDisk Corp. - Unknown
+Norelsys - NS1066
+Intel Corp. - Bluetooth wireless interface"	"vid_05c8&pid_0815_Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown: 1
+vid_05c8&pid_0815&mi_00_Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown: 1
+vid_05c8&pid_0815&mi_02_Cheng Uei Precision Industry Co., Ltd (Foxlink) - Unknown: 1
+vid_0781&pid_5599_SanDisk Corp. - Unknown: 1
+vid_2537&pid_1066_Norelsys - NS1066: 1
+vid_8087&pid_0a2b_Intel Corp. - Bluetooth wireless interface: 1"	"disk&ven_norelsys&prod_106x&rev_cc41
+disk&ven_sandisk&prod_cruzer_dial&rev_1.00"	2	"disk&ven_norelsys&prod_106x&rev_cc41: 1
+disk&ven_sandisk&prod_cruzer_dial&rev_1.00: 1"
+NIST04/SCHARDT.dd	NIST04	2004	Hacking Case	National Institute of Standards and Technology	https://cfreds.nist.gov/all/NIST/HackingCase	2600	Windows XP	5.1	Microsoft Windows XP						0		1		39	0			0			0	0				0	
+OpenUni22/20240212-decrypted-Windows_Server_2022.E01	OpenUni22	2024	Compromised Windows Server	The Open University	https://ordo.open.ac.uk/articles/dataset/Compromised_Windows_Server_2022_simulation_/26038642/1?file=47113612	20348	Windows Server 2022	6.3	Windows Server 2022 Standard	0	0	0	0	0	0		2		60	0	0	0	1	9	18	1	1	VirtualBox - USB Tablet	vid_80ee&pid_0021_VirtualBox - USB Tablet: 1		0	
+Owl19/HD1.E01	Owl19	2019	Owl	Digital Corpora	https://digitalcorpora.org/corpora/scenarios/2019-owl/	10586	Windows 10	6.3	Windows 10 Pro	0	0	46	0	0	0		5	2	86	0	0	0	1	9	45	4	6	"Lite-On Technology Corp. - HP HD Webcam
+Lite-On Technology Corp. - HP HD Webcam
+SanDisk Corp. - Cruzer Glide
+Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) - Flash Drive
+Validity Sensors, Inc. - VFS495 Fingerprint Reader
+Intel Corp. - Bluetooth wireless interface
+Lite-On Technology Corp. - HP HD Webcam
+Lite-On Technology Corp. - HP HD Webcam
+Validity Sensors, Inc. - VFS495 Fingerprint Reader
+Intel Corp. - Bluetooth wireless interface"	"vid_04ca&pid_7054_Lite-On Technology Corp. - HP HD Webcam: 1
+vid_04ca&pid_7054&mi_00_Lite-On Technology Corp. - HP HD Webcam: 1
+vid_0781&pid_5575_SanDisk Corp. - Cruzer Glide: 1
+vid_090c&pid_1000_Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) - Flash Drive: 1
+vid_138a&pid_003f_Validity Sensors, Inc. - VFS495 Fingerprint Reader: 1
+vid_8087&pid_0a2b_Intel Corp. - Bluetooth wireless interface: 1"	"disk&ven_general&prod_usb_flash_disk&rev_1100
+disk&ven_sandisk&prod_cruzer_glide&rev_1.27"	2	"disk&ven_general&prod_usb_flash_disk&rev_1100: 1
+disk&ven_sandisk&prod_cruzer_glide&rev_1.27: 1"

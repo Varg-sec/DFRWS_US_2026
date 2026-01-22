@@ -1,0 +1,11 @@
+disk_image	win_build	win_build_inferred_os	win_version_id	win_version_str	num_usb_mass_storage_attached_setupapi	details_usb_mass_storage_attached_setupapi	num_usb_reg_USB	num_usb_reg_USBSTOR	num_usb_reg_dev_classes	num_usb_reg_mounted_dev	num_usb_reg_portable_dev	num_usb_reg_usbccgp	num_usb_reg_usbhub	num_usb_reg_user_assist_max	num_usb_reg_user_assist_total	num_usb_w_vendor_reg_USB	num_unique_device_instances_reg_USB	details_vendor_product_types_reg_USB	details_vendor_product_counts_reg_USB	details_reg_USBSTOR	num_unique_device_instances_reg_USBSTOR	details_counts_reg_USBSTOR
+Scenario1.E01	26200	Windows 11	6.3	Windows 10 Home	3	"2026/01/15 18:01:46.445, Ven_Kingston&Prod__DataTraveler
+2026/01/16 11:02:03.189, Ven_Samsung&Prod_Kingston
+2026/01/18 10:02:27.381, Ven_SanDisk&Prod_Cruzer"	4	2	67	0	2	2	2	9	9	3	3	"Samsung Electronics Co., Ltd - Kingston Flash Drive (128MB)
+Adomax Technology Co., Ltd - QEMU Tablet
+Kingston Technology - DataTraveler 2.0 (2GB)"	"vid_04e8&pid_0100_Samsung Electronics Co., Ltd - Kingston Flash Drive (128MB): 1
+vid_0627&pid_0001_Adomax Technology Co., Ltd - QEMU Tablet: 1
+vid_0951&pid_160b_Kingston Technology - DataTraveler 2.0 (2GB): 1"	"disk&ven_kingston&prod__datatraveler&rev_
+disk&ven_samsung&prod_kingston&rev_"	2	"disk&ven_kingston&prod__datatraveler&rev_: 1
+disk&ven_samsung&prod_kingston&rev_: 1"
+Scenario2.E01	19045	Windows 10	6.3	Windows 10 Home	1	2025/09/08 09:59:12.958, Ven_ATMEL&Prod_Mass_Storage	2	0	61	0	0	0	1	9	9	1	1	Adomax Technology Co., Ltd - QEMU Tablet	vid_0627&pid_0001_Adomax Technology Co., Ltd - QEMU Tablet: 1		0	
